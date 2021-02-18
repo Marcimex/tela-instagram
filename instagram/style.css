@@ -1,0 +1,130 @@
+*{
+    padding: auto0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.instagram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+
+.celular-tela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    
+}
+
+
+.instagram-continue{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.group{
+    display:flex;
+    min-height: 25rem;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction:column;
+    background-color: rgb(255, 255, 255);
+    width: 85%;
+    padding: 1.3rem 0;
+    border: 1.3px solid rgb(211, 207, 207);
+
+
+}
+
+.instagram-logo{
+    height: 5rem;
+}
+
+.profile-photo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.profile-photo img{
+    height: 7rem;
+}
+
+.instagram-login {
+    background-color: rgb(7, 155, 253);
+    color: cornsilk;
+    padding: 8px;
+    border-radius: 4px;
+
+}
+
+.instagram-logout{
+    color: rgb(7,155,253);
+    margin-top: 1rem;
+}
+
+.fim-pagina{
+    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem 28rem; 
+}
+
+.rodape{
+    
+    display:inline;
+    justify-content:center;
+    align-items:center;
+    color: rgba(0, 0, 0, 0.336);   
+   
+}
+
+@media (max-width: 1024px) {
+    .instagram-wrapper{
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px){
+    .instagram-wrapper{
+        width: 90%;
+    }
+
+    .celular-tela{
+        display: none;
+    }
+
+    .instagram-continue{
+        width: 100%;
+    }
+    
+}
+
